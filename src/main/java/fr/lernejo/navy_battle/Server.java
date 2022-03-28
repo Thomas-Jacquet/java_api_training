@@ -9,7 +9,7 @@ import java.util.concurrent.Executors;
 
 public class Server {
 
-    private HttpServer srv;
+    private final HttpServer srv;
 
     public Server (String port_str) throws IOException {
         int port = Integer.parseInt(port_str);
